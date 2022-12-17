@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient( 90deg, rgba(78, 91, 150, 1) 0%, rgba(47, 52, 177, 1) 49%, rgba(11, 25, 75, 1) 100% ); ;
+    width: 100vw;
+}
+
+header {
+    width: 100vw;
+    background-color: #fff;
+    box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+
+section {
+    width: 100%;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+section .container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+section .title {
+    color: #fff;
+    padding-bottom: 30px;
+    font-size: 32px;
+    text-align: center;
+    flex-direction: column;
+}
+
+section .title p {
+    color: #D3BF60;
+    font-size: 38px;
+}
+
+section .content {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+section textarea {
+    border: none;
+    border-radius: 4px;
+    background: #fffa;
+}
+
+section button {
+    padding: 15px;
+    border-radius:104px;
+    border: none;
+    box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
+    opacity: 0.5;
+    color: rgb(78, 91, 150);
+    font-weight: 800;
+}
+
+section button:hover {
+    opacity: 0.2;
+}
+
+section .desafio img {
+    padding-top: 20px;
+}
+
+
+@media (max-width: 915px){
+    
+    section {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    section .content {
+        width: 95%;
+    }
+
+    section .desafio {
+        display: none;
+    }
+}
