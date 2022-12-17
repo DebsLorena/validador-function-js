@@ -10,6 +10,11 @@
 <strong> Validei funções JavaScript usando o eval(), calculei o tempo com performance.now(), o tamanho em bytes usando Json e stringity, o número de linhas com split(\n), o número de caracteres com .length</strong>
 
 
+<div align="center">
+    <img src="./Capturar.PNG" alt="daily.dev" height="250">
+</div>
+
+
 ### 🎨 Frontend
 
 *  **HTML, CSS, JavaScript**: com Visual Studio Code 
